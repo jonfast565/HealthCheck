@@ -15,7 +15,7 @@ var (
 	okStatusCode   = 200
 	badStatusCode  = 500
 	delayInSeconds = 10.0
-	portNumber     = 81
+	portNumber     = 8080
 	endpointName   = "up-down"
 )
 
