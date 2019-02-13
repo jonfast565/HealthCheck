@@ -6,4 +6,4 @@ RUN go build main.go
 
 EXPOSE 81
 
-CMD ["main.exe"]
+CMD ["main"]
