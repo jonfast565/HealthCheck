@@ -20,11 +20,11 @@ var (
 )
 
 func main() {
-	http.HandleFunc("/"+endpointName, UpDown)
+	http.HandleFunc("/"+endpointName, upDown)
 	log.Fatal(http.ListenAndServe(":"+strconv.Itoa(portNumber), nil))
 }
 
-func UpDown(w http.ResponseWriter, r *http.Request) {
+func upDown(w http.ResponseWriter, r *http.Request) {
 	started := time.Now()
 	duration := time.Now().Sub(started)
 	if duration.Seconds() > delayInSeconds {
