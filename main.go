@@ -16,7 +16,7 @@ var (
 	badStatusCode  = 500
 	delayInSeconds = 10.0
 	portNumber     = 8080
-	endpointName   = "up-down"
+	endpointName   = "lb/lbtest.aspx"
 )
 
 func main() {
