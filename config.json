@@ -1,0 +1,5 @@
+{
+  "endpointName": "/lb/lbtest.aspx",
+  "upString": "1-UP",
+  "downString": "1-DOWN: %v"
+}
